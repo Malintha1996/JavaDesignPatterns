@@ -19,6 +19,9 @@ public class Document implements IVisitable{
     
     public Title getTitle(){
         return this.title;
+    } // A set method should also be there to set the title
+    public Title setTitle(Title title){
+      this.title=title;
     }
     
     public void addBody(Body body){
